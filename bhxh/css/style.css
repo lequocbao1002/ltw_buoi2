@@ -1,0 +1,92 @@
+body{
+	font-family: arial; 
+	font-size: 11pt;
+}
+#NoiDung{
+	width: 960px;
+	margin: 0px auto; 
+}
+
+#DauTrang{
+	width: 960px;
+	height: 192px;
+	background: url(../image/banner.jpg) no-repeat;
+}
+
+#GiuaTrang{
+	width:960px;
+}
+
+#BenTrai{
+	width:220px;
+	float: left
+	
+}
+#BenTrai h3 {
+	font-size: 13pt;
+	height: 34px;
+	background: url(../image/h3_bg.gif);
+	padding: 8px 0 0 5px;
+	color: #ffffff;
+	box-sizing: border-box;
+	margin-bottom: 0px;
+	margin-top:13px;
+}
+#BenTrai ul {
+	list-style-image: url(../image/ul.gif);
+	padding: 8px 0 8px 22px;
+	border: 1px solid #d5653b;
+	padding-top: 0px;
+	margin-top: 0px;
+	
+}
+
+#BenTrai a:link{
+	text-decoration: none;
+	color: #0000ff;
+}
+
+#BenTrai a:Hover{
+	text-decoration: underline;
+	color: #ff0000;
+}
+
+#BenTrai a:visited{
+	text-decoration: underline;
+	color: gray;
+}
+#BenPhai{
+	width: 730px;
+	float: right;
+}
+
+#BenPhai p{
+	text-align: justify;
+	line-height: 130%
+}
+
+.TacGia {
+	text-align:right !important;
+	font-weight: bold;
+}
+
+#BenPhai h3 {
+	font-size: 13pt;	
+	background: url(../image/content_title_bar.png) no-repeat;
+	height: 34px;
+	padding: 6px 0 0 35px;
+	box-sizing: border-box;
+	color: #7A2211;
+	margin-top: 13px;
+}
+
+#CuoiTrang{
+	width: 960px;
+	height:50px;
+	background: url(../image/footer.jpg);
+	color: #7A2211;
+	text-align: center;
+	clear: both;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
